@@ -131,7 +131,6 @@ table {
   /* Safari */
 
   transform: rotateY(360deg);
-  border: 1px solid red;
   -webkit-animation: spin 10s infinite linear;
 }
 .spinEffect {
@@ -144,4 +143,70 @@ table {
   100% {
     -webkit-transform: rotate(360deg);
   }
+}
+.preview-section {
+  background-color: black;
+  padding-bottom: 100px;
+}
+.top {
+  width: 100%;
+  text-align: center;
+}
+.top .holo-img {
+  width: 50%;
+}
+.right {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: 48%;
+}
+.right .holo-img {
+  width: 100%;
+}
+.bottom {
+  text-align: center;
+  width: 100%;
+}
+.bottom .holo-img {
+  width: 50%;
+}
+.left {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 48%;
+}
+.left .holo-img {
+  width: 100%;
+}
+.upload-top {
+  width: 50%;
+  margin: 25% auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.upload-right {
+  width: 50%;
+  margin: 25% auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.upload-bottom {
+  width: 50%;
+  margin: 25% auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.upload-left {
+  width: 50%;
+  margin: 25% auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.upload-container {
+  background-color: white !important;
+}
+.push {
+  height: 100%;
 }

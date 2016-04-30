@@ -1,28 +1,59 @@
-<html>
+<!DOCTYPE html>
 <head>
 	<title>Hologram</title>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	
+	<link rel="stylesheet" href="styles/bootstrap.css">
 	<link rel="stylesheet" href="styles/main.css">
 
 </head>
 <body>
+	<section class="upload-section">
+		<div class="col-xs-12 col-sm-12 col-md-12 ">
+			<form id="form1">
+				<div class="col-xs-6 col-sm-6 col-md-6 upload-top">
+					<input type='file' id="inputFile_top" />
+				</div>
+				<!-- <div class="col-xs-6 col-sm-6 col-md-6 upload-right">
+					 <input type='file' id="inputFile_right" />
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 upload-bottom">
+					<input type='file' id="inputFile_bottom" />
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 upload-left">
+					<input type='file' id="inputFile_left" />
+				</div> -->
+				<!-- <input type="submit" id="submit"> -->
+			</form>
+		</div>
+	</section>
 	
-		
+	<section class="preview-section">
+		<div class="top">
+		<img class="holo-img" id="img-top" src="" alt="butterfly" onchange="previewFile()">
+		</div>
+		<div class="left">
+			<img class="holo-img " id="img-left" alt="butterfly" onchange="previewFile()" >
+		</div>	
+		<div class="right">
+			<img class="holo-img " id="img-right" alt="butterfly" onchange="previewFile()">
+		</div>
+		<div class="bottom">
+			<img class="holo-img " id="img-bottom" alt="butterfly" onchange="previewFile()">
+		</div>
 
-	<img class="holo-img " src="images/jennifer.jpg" alt="butterfly" width="250" height="250">
-	<img class="holo-img" src="images/jennifer.jpg" alt="butterfly" width="250" height="250">
-	<img class="holo-img" src="images/jennifer.jpg" alt="butterfly" width="250" height="250">
-	<img  class="holo-img" src="images/jennifer.jpg" alt="butterfly" width="250" height="250">
+
+	</section>
 	
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<div class="push"></div>
+			
+
+	
+	
 
 	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/bootstrap.js"></script>
 	<script src="scripts/main.js"></script>
-	<!-- // <script src="scripts/jquery-threesixty.js"></script> -->
-
+	
 </body>
 </html>
